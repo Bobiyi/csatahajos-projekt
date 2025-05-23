@@ -1,0 +1,79 @@
+#név ; ország ; osztály ; tömeg ; fegyverzet
+
+#Tátra
+
+#Vladivostok
+
+#//
+#super Yamato
+
+USS New Mexico (BB-40) ; USS ; New Mexico osztályú csatahajó ; 33530 ; 12 × 14(356 mm)/50 kaliber ágyú,14 × 5(127 mm)/51 kaliber ágyú, 8 × 3(76 mm)/50 kaliber ágyú, 2 × Mark 15 21(533 mm) torpedó cső
+
+Bismarck ; Németország ; Bismarck osztályú csatahajó ; 41700 ; 8 × 38 cm (15 inch) SK C/34 (4 × 2) haditengerészeti ágyú,12 × 15 cm (5.9 inch) SK C/28 (6 × 2) haditengerészeti ágyú, 16 × 10.5 cm (4.1 inch) SK C/33 (8 × 2) haditengerészeti ágyú, 16 × 3.7 cm (1.5 inch) SK C/30 (8 × 2) haditengerészeti ágyú, 12 × 2 cm (0.79 inch) FlaK 30 (12 × 1) haditengerészeti ágyú
+
+USS Georgia (BB-15) ; USA ; Virga osztályú csatahajó ; 14948 ; 4 × 12(305 mm)/40 kaliber ágyú,8 × 8(203 mm)/45 kaliber ágyú,12 × 6(152 mm)/50 kaliber ágyú,12 × 3(76 mm)/50 kaliber ágyú,12 × 3-kilós fegyver,4 × 21 ch (533 mm) torpedó cső 
+
+USS Nebraska (BB-14) ; USA ; Virga osztályú csatahajó ; 16094 ; 4 × 12(305 mm)/40 kaliber ágyú,8 × 8(203 mm)/45 kaliber ágyú,12 × 6(152 mm)/50 kaliber ágyú,12 × 3(76 mm)/50 kaliber ágyú,12 × 3-kilós ágyú,4 × 21 ch (533 mm) torpedó cső
+
+SMS Szent István ; Osztrák-Magyar Monarchia ; Tegetthoff osztályú csatahajó ; 21689 ; 4 × tripla 30.5 cm (12 inch) ágyú,12 × egyszeres 15 cm (5.9 inch) ágyú,12 × egyszeres 66 mm (2.6 inch) ágyú,3 × egyszeres 66 mm légvédelmi ágyú,4 × 533 mm (21 inch) torpedó cső
+
+SMS Zrínyi ; Osztrák-Magyar Monarchia ; Radetzky osztályú csatahajó ; 14500 ; 4 × 30.5 cm (12.0 inch) ágyú,8 × 24 cm (9.4 inch) ágyú,20 × 10 cm (3.9 inch) K10 gyorstüzelő fegyvere,4 × 7 cm (2.8 inch) légvédelmi ágyú,2 × 66 mm (2.6 inch) L/18 leszálló ágyú,4 × 47 mm (1.9 inch) ágyú,3 × 45 cm (18 inch) torpedó cső
+
+USS Arizona ; USA ; Pennsylvania osztályú csatahajó ; 29158 ; 4 × tripla 14 (356 mm) ágyú,22 × egyszeres 5(127 mm) ágyú ,4 × egyszeres 3 (76 mm) légvédelmi ágyú,2 × 21(533 mm) torpedó cső
+
+Nagato ; Japán ; Nagato osztályú csatahajó ; 32720 ; 4 × dupla 41 cm (16 inch) ágyú,20 × egyszeres 14 cm (5.5 inch) ágyú,4 × egyszeres 76 mm (3 inch) légvédelmi ágyú,8 × 533 mm (21.0 inch) torpedó cső
+
+USS Missouri (BB-11) ; USA ; Maine osztályú csatahajó ; 13700 ; 4 × 12 inch (305 mm)/40 kaliber ágyú,16 × 6 inch (152 mm)/50 kaliber Mark 6 ágyú,8 × 3-kilós (47 mm (1.9 inch)) ágyú,6 × 1-kilós (37 mm (1.5 inch)) ágyú,2 × 18 inch (457 mm) torpedó cső
+
+Yamato ; Japán ; Yamato osztályú csatahajó ; 71659 ; 3 × tripla 46 cm (18.1 inch) ágyú,4 × tripla 15.5 cm (6.1 inch) ágyú,6 × dupla 12.7 cm (5 inch) kettőscélú ágyú ,8 × tripla 2.5 cm (1 inch) légvédelmi ágyú,2 × dupla 13.2 mm (0.52 in) légvédelmi fegyver
+
+HMCS Rainbow ; Egyesült Királyság ; Apollo osztályú cirkáló ; 3600 ; 2 × gyorstüzelésű 6 inch (152 mm) ágyú,6 × gyorstüzelésű 4.724 inch (120 mm) ágyú,8 × gyorstüzelésű 6-kilós (57 mm) ágyú,4 × 14 inch (360 mm) torpedó cső
+
+HMS Aurora ; Egyesült Királyság ; Arethusa osztályú cirkáló ; 3500 ; 2 × BL 6 inch (152 mm)/45 kaliber Mk XII ágyű,6 × QF 4 inch (102 mm)/45 kaliber Mk IV ágyú,1 × 3-kilós 47 mm (1.9 inch) ágyú,4 × 21 inch (533 mm) torpedó cső
+
+USS Atlanta ; USA ; cirkáló ; 3189 ; 2 × 8-inch (203 mm)/30 kaliber Mark 1 ágyú,6 × 6-inch (152 mm)/30 kaliber Mark 2 ágyú,2 × 6-kilós (57 mm (2.24 inch)) ágyú,2 × 3-kilós (47 mm (1.85 inch)) Hotchkiss forgó ágyú,2 × 1-kilós (37 mm (1.46 inch)) Hotchkiss forgó ágyú,2 × .45 kaliber (11.4 mm) Gatling fegyverek
+
+USS Boston ; USA ; cirkáló ; 3189 ; 2 × 8-inch (203 mm)/30 kaliber Mark 1 ágyú,6 × 6-inch (152 mm)/30 kaliber Mark 2 ágyú,2 × 6-kilós (57 mm (2.24 in)) ágyú,2 × 3-kilós (47 mm (1.85 in)) Hotchkiss forgó ágyú,2 × 1-kilós (37 mm (1.46 in)) Hotchkiss forgó ágyú,2 × .45 kaliber (11.4 mm) Gatling ágyú
+
+USS Montana ; USA ; Tennessee osztályú páncélozott cirkáló ; 14500 ; 4 × 10 inch (254 mm)/ 40 kaliber Mark 3 ágyú,16 × 6 inch (152 mm)/50 kaliber Mark 8 ágyú,22 × 3 inch (76 mm)/50 kaliber ágyú,12 × 3-kilós ágyú,4 × 1-kilós ágyú,4 × 21 inch (533 mm) torpedó cső
+
+USS San Francisco ; USA ; védett cirkáló ; 4088 ; 12 × 6 inch (152 mm)/30 kaliber Mark 3 farfekvésű puskák,4 × 57 mm (2.2 inch) 6-kilós ágyú,4 × 47 mm (1.9 inch) 3-kilós ágyú,2 × 37 mm (1.5 inch) 1-kilós gyorstüzelő fegyver,4 × Gatling ágyú
+
+USS Birmingham ; USA ; Chester osztályú cirkáló ; 4687 ; 4 × 5 inch (130 mm)/50 kaliber Mark 6 farfekvésű puskák,6 × 3 inch (76 mm)/50 kaliber gyorstüzelő fegyver (6x1),2 × 3-kilós (47 mm (1.9 in) Driggs-Schroeder tisztelgő fegyver,2 × 21 inch (533 mm) torpedó cső
+
+HMS Warrior ; Egyesült Királyság ; Colossus osztályú repülőgép-hordozó ; 18300 ; 4 × dupla 40 mm Bofors ágyú,20 × egyszeres 40 mm Bofors ágyú
+
+HMAS Sydney ; Ausztrália ; Majestic osztályú repülőgép-hordozó ; 15740 ; 30 × Bofors 40 mm ágyú (18 egyszeres rögzítésű, 6 dupla rögzítésű)
+
+São Paulo ; Brazília ; 	Clemenceau osztályú repülőgép-hordozó ; 32800 ; 4 x 100 mm torony,2 x SACP Crotale EDIR rendszer, 5 x 12.7 mm géppuskák,4 x dupla Simbad rakétaindító állvány
+
+HMS Warrior (R31) ; Egyesült Királyság ; Colossus osztályú repülőgép-hordozó ; 18300 ; 4 × dupla 40 mm Bofors ágyú,20 × egyszeres 40 mm Bofors ágyú
+
+JS Izumo ; Japán ; Izumo osztályú repülőgép-hordozó ; 19950 ; 2 × Phalanx CIWS,2 × SeaRAM CIWS,7 ASW helikopter,2 SAR helikopter,28 repülőgép maximum
+
+Ryūhō ; Japán ; könnyű repülőgép-hordozó ; 16700 ; 4 × dupla 12.7 cm kettős célú ágyú,23 × egyszeres 25 mm légvédelmi ágyú,6 × egyszeres 13 mm légvédelmi ágyú,6 mélységi töltet,6 × 12 cm rakéta vető
+
+Kiev ; Szovjetúnió ; Kiev osztályú repülőgép-hordozó ; 30530 ; 4 × dupla SS-N-12 Sandbox SSM kilövő (8 rakéta),2 × dupla SA-N-3 Shtorm SAM kilövő (72 rakéta),2 × dupla SA-N-4 Gecko SAM kilövő (40 rakéta),2 × dupla 76 mm ágyú,8 × AK-630 30 mm CIWS,10 × 533 mm torpedó cső,1 × dupla SUW-N-1 ASW rakéta kilövő (16 nukleáris rakéta),2 × RBU-6000 tengeralattjáró-ellenes rakéta kilövő
+
+HMS Vanguard (S28) ; Egyesült Királyság ; Vanguard osztályú tengeralattjáró ; 15900 ; 4 × 21-inch (533 mm) torpedó cső Spearfish nehézsúlyú torpedók számára,16 × ballisztikus rakéta cső Lockheed Trident II D5 SLBMs nuklráris robbanófejekkel
+
+HMS Vengeance (S31) ; Egyesült Királyság ; Vanguard osztályú tengeralattjáró ; 15900 ; 4 × 21-inch (533 mm) torpedó cső Spearfish nehézsúlyú torpedók számára,16 × ballisztikus rakéta cső Lockheed Trident II D5 SLBMs nuklráris robbanófejekkel
+
+USS Michigan (SSGN-727) ; USA ; Ohio osztályú tengeralattjáró ; 16764 ; 4 × 21 inch (533 mm) torpedó cső,154 × BGM-109 Tomahawks 22 hétfős csoportban
+
+USS Ohio (SSGN-726) ; USA ; Ohio osztályú tengeralattjáró ; 16764 ; 4 × 21 inch (533 mm) íjtorpedó cső,24 × Trident II C4 SLBM, egyenként akár 8 MIRVed W76 nukleáris robbanófejjel
+
+USS Los Angeles (SSN-688) ; USA ; Los Angeles osztályú tengeralattjáró ; 5700 ; 4 × 21 inch (533 mm) íjcső,Mark 48 torpedó,Harpoon rakéta,Tomahawk cirkáló rakéta
+
+USS Philadelphia (SSN-690) ; USA ; Los Angeles osztályú tengeralattjáró ; 6075 ; 4 × 21 inch (533 mm) íjcső,BGM-109 Tomahawk,Mark 48 torpedó
+
+USS Omaha (SSN-692) ; USA ; Los Angeles osztályú tengeralattjáró ; 6071 ; 4 × 21 in (533 mm) íjtorpedó cső
+
+SMS Huszár ; Osztrák-Magyar Monarchia ; Huszár osztályú romboló ; 390 ; 1 × egyszeres 66 mm (2.6 inch) ágyú,7 × egyszeres 47 mm (1.9 inch) ágyú,2 × egyszeres 45 cm (17.7 inch) torpedó cső
+
+SMS Warasdiner ; Osztrák-Magyar Monarchia ; Huszár osztályú romboló ; 389 ; 6 × 66 mm (2.6 inch) ágyú,4 × 45 cm (18 inch) torpedó cső
+
+SMS Turul ; Osztrák-Magyar Monarchia ; Huszár osztályú romboló ; 390 ; 1 × egyszeres 66 mm (2.6 inch) ágyú,7 × egyszeres 47 mm (1.9 inch) ágyú,2 × egyszeres 45 cm (17.7 inch) torpedó cső
+
+
+

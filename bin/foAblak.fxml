@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.foAblakController">
+   <children>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="Fájl">
+            <items>
+              <MenuItem fx:id="nav_Mentes" mnemonicParsing="false" onAction="#nav_Mentes_Click" text="Mentés" />
+                  <MenuItem fx:id="nav_Megnyitas" mnemonicParsing="false" onAction="#nav_Megnyitas_Click" text="Fájl megnyitás" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="nav_Kilepes" mnemonicParsing="false" onAction="#nav_Kilepes_Click" text="Kilépés" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Adatok">
+            <items>
+              <MenuItem fx:id="nav_Felvetel" mnemonicParsing="false" onAction="#btn_Felvetel_Click" text="Felvétel" />
+                  <MenuItem fx:id="nav_Torles" mnemonicParsing="false" onAction="#btn_Torles_Click" text="Törlés" />
+                  <MenuItem fx:id="nav_Szerkeztes" mnemonicParsing="false" onAction="#btn_Szerkeztes_Click" text="Szerkeztés" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Súgó">
+            <items>
+              <MenuItem fx:id="nav_Nevjegy" mnemonicParsing="false" onAction="#nav_Nevjegy_Click" text="Névjegy" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <FlowPane hgap="20.0" prefHeight="36.0" prefWidth="600.0" vgap="20.0">
+         <children>
+            <Button fx:id="btn_Felvetel" mnemonicParsing="false" onAction="#btn_Felvetel_Click" prefHeight="40.0" prefWidth="70.0">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/add%20data.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btn_Torles" mnemonicParsing="false" onAction="#btn_Torles_Click" prefHeight="40.0" prefWidth="70.0">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/del%20data.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btn_Szerkeztes" mnemonicParsing="false" onAction="#btn_Szerkeztes_Click" prefHeight="40.0" prefWidth="70.0">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/edit%20data.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btn_Kiiras" mnemonicParsing="false" onAction="#btn_Kiiras_Click" prefHeight="40.0" prefWidth="70.0">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/write%20data.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btn_DeleteDeletedatabase" mnemonicParsing="false" onAction="#btn_DeleteDeletedatabase_Click" prefHeight="40.0" prefWidth="70.0">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/del%20database.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </VBox.margin>
+      </FlowPane>
+      <HBox prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+         <children>
+            <ListView fx:id="lv_Lista" onMouseClicked="#lv_Lista_Click" prefHeight="282.0" prefWidth="190.0" HBox.hgrow="NEVER">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </ListView>
+            <TextArea fx:id="txa_Leiras" prefHeight="315.0" prefWidth="174.0" HBox.hgrow="SOMETIMES">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </TextArea>
+         </children>
+      </HBox>
+      <FlowPane alignment="CENTER" hgap="10.0" prefHeight="30.0" prefWidth="600.0">
+         <children>
+            <Label text="Hajók száma:" />
+            <Label fx:id="lb_Darab" text="Label" />
+         </children>
+      </FlowPane>
+   </children>
+</VBox>
