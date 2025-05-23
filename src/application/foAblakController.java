@@ -413,6 +413,10 @@ public class foAblakController {
     	
     	fc.getExtensionFilters().add(ef);
     	
+    	String felhasznalo = System.getProperty("user.home");
+    	
+    	fc.setInitialDirectory(new File(felhasznalo+"/Desktop"));
+    	
     	File kivalsztott = fc.showSaveDialog(null);
     	
     	if(kivalsztott!=null) {
@@ -427,21 +431,21 @@ public class foAblakController {
     			if(hajok.get(hajok.size()-1)!=h) {
     				
     				fw.write(String.format("{\n"
-						+ "	\"Nev\":\"%s\",\n"
-						+ "	\"Orszag\":\"%s\",\n"
-						+ "	\"Osztaly\":\"%s\"\n"
-						+ "	\"Tomeg\":\"%d\",\n"
-						+ "	\"Fegyverzet\":\"%s\""
+						+ "	\"HajoNev\":\"%s\",\n"
+						+ "	\"HajoOrszag\":\"%s\",\n"
+						+ "	\"HajoOsztaly\":\"%s\",\n"
+						+ "	\"HajoTomeg\":\"%d\",\n"
+						+ "	\"HajoFegyverzet\":\"%s\""
 						+ "},\n",h.getNev(),h.getOrszag(),h.getOrszag(),h.getTomeg(),h.getJSONFegyverzet()));
     				fw.flush();
     				
     			} else {
     				fw.write(String.format("{\n"
-    						+ "	\"Nev\":\"%s\",\n"
-    						+ "	\"Orszag\":\"%s\",\n"
-    						+ "	\"Osztaly\":\"%s\"\n"
-    						+ "	\"Tomeg\":\"%d\",\n"
-    						+ "	\"Fegyverzet\":\"%s\""
+    						+ "	\"HajoNev\":\"%s\",\n"
+    						+ "	\"HajoOrszag\":\"%s\",\n"
+    						+ "	\"HajoOsztaly\":\"%s\",\n"
+    						+ "	\"HajoTomeg\":\"%d\",\n"
+    						+ "	\"HajoFegyverzet\":\"%s\""
     						+ "}\n",h.getNev(),h.getOrszag(),h.getOrszag(),h.getTomeg(),h.getJSONFegyverzet()));
         				fw.flush();
     			}
