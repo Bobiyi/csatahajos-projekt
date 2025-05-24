@@ -240,12 +240,6 @@ public class foAblakController {
     		hiba.showAndWait();
     	}
     	}
-    	
-    @FXML
-    void nav_Mentes_Click(ActionEvent event) {
-    	JSON_Mentes();
-    	
-    }
 
     @FXML
     void nav_Nevjegy_Click(ActionEvent event) {
@@ -258,17 +252,6 @@ public class foAblakController {
     	nevj.setContentText("Készítette: Halmai Bence");
     	
     	nevj.showAndWait();
-    }
-
-    @FXML
-    void nav_Torles_Click(ActionEvent event) {
-    	Hajo kivalsztott_Hajo = lv_Lista.getSelectionModel().getSelectedItem();
-    	
-    	lv_Lista.getItems().remove(kivalsztott_Hajo);
-    	
-    	hajok.remove(lv_Lista.getSelectionModel().getSelectedIndex());
-    	
-    	listaFrissites();
     }
 
     @FXML

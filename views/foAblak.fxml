@@ -21,7 +21,7 @@
         <menus>
           <Menu mnemonicParsing="false" text="Fájl">
             <items>
-              <MenuItem fx:id="nav_Mentes" mnemonicParsing="false" onAction="#nav_Mentes_Click" text="Mentés" />
+              <MenuItem fx:id="nav_Mentes" mnemonicParsing="false" onAction="#btn_Kiiras_Click" text="Mentés" />
                   <MenuItem fx:id="nav_Megnyitas" mnemonicParsing="false" onAction="#nav_Megnyitas_Click" text="Fájl megnyitás" />
                   <SeparatorMenuItem mnemonicParsing="false" />
                   <MenuItem fx:id="nav_Kilepes" mnemonicParsing="false" onAction="#nav_Kilepes_Click" text="Kilépés" />
