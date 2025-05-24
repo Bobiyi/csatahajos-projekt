@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Scanner;
 
 import application.classes.AblakMode;
@@ -333,6 +334,13 @@ public class foAblakController {
     }
     public void listaFrissites() {
 		lv_Lista.getItems().clear();
+		
+		hajok.sort(new Comparator<Hajo>() {
+
+			@Override
+			public int compare(Hajo o1, Hajo o2) {
+				return o1.getNev().compareTo(o2.getNev());
+			}});
 		
 		for(Hajo h : hajok) {
 			lv_Lista.getItems().add(h);
