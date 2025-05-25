@@ -108,13 +108,13 @@ public class foAblakController {
     
     public AblakMode getMode() {
     	return mode;
-    }
-    
+    } 
 
     public Hajo getKivalsztott_Hajo() {
     	return lv_Lista.getSelectionModel().getSelectedItem();
     }
 	
+    
     @FXML
     void btn_Felvetel_Click(ActionEvent event) {
     	mode=AblakMode.ADD;
@@ -332,9 +332,18 @@ public class foAblakController {
     @FXML
     void chk_Hajo_Fliter() {
     	filter(chk_Rombolo,chk_Cirkalo,chk_Csatahajo,chk_Rephordozo,chk_TengeralattJ);
+    	
+    	hajok.sort(new Comparator<Hajo>() {
+
+			@Override
+			public int compare(Hajo o1, Hajo o2) {
+				return o1.getNev().compareTo(o2.getNev());
+			}});
+    	
     }
     	
-	@FXML
+	
+    @FXML
     void initialize() {
     	
     	lb_Darab.setText("");
@@ -366,6 +375,7 @@ public class foAblakController {
 
     }
     
+    
     public void listaFrissites() {
 		lv_Lista.getItems().clear();
 		
@@ -383,6 +393,7 @@ public class foAblakController {
 		lb_Darab.setText(Integer.toString(hajok.size())+" db");
 		
 	}
+    
     
     private static void beolvasas(File f, ListView<Hajo> lv_Lista) {
     	if(f!=null) {
@@ -433,6 +444,7 @@ public class foAblakController {
     	}
     }
        
+    
     private static void JSON_Mentes() {
     	FileChooser fc = new FileChooser();
     	
@@ -489,6 +501,7 @@ public class foAblakController {
     	}
     }
     }
+    
     
     private void filter(CheckBox chk_Rombolo, CheckBox chk_Cirkalo, CheckBox chk_Csatahajo, CheckBox chk_Rephordozo, CheckBox chk_TengeralattJ) {
 		lv_Lista.getItems().clear();
