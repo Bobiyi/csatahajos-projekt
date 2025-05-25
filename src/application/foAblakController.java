@@ -111,7 +111,7 @@ public class foAblakController {
     		Stage hozzadasModal = new Stage();
 		
     		hozzadasModal.setScene(scene);
-    		hozzadasModal.getIcons().add(new Image("add hajo.png"));
+    		hozzadasModal.getIcons().add(new Image("/add hajo.png"));
     		hozzadasModal.setTitle("Csatahajó hozzáadása");
     		hozzadasModal.initModality(Modality.APPLICATION_MODAL);
     		hozzadasModal.setResizable(false);
@@ -165,6 +165,7 @@ public class foAblakController {
     		
     		hozzadasModal.setScene(scene);
     		hozzadasModal.setTitle("Csatahajó szerkeztése");
+    		hozzadasModal.getIcons().add(new Image("/edit hajo.png"));
     		hozzadasModal.initModality(Modality.APPLICATION_MODAL);
     		hozzadasModal.setResizable(false);
     		
@@ -286,6 +287,7 @@ public class foAblakController {
         		
         		hozzadasModal.setScene(scene);
         		hozzadasModal.setTitle("Csatahajó szerkeztése");
+        		hozzadasModal.getIcons().add(new Image("/edit hajo.png"));
         		hozzadasModal.initModality(Modality.APPLICATION_MODAL);
         		hozzadasModal.setResizable(false);
         		
@@ -377,6 +379,8 @@ public class foAblakController {
     						elemek[2].strip(),
     						Integer.parseInt(elemek[3].strip()),
     						fegyverzet_Array);
+    				
+    				System.out.println(hajo.getNev());
     				
     				hajok.add(hajo);	
     			}

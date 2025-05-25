@@ -126,6 +126,8 @@ public class adatController {
     		tx_Tomeg.setText(Integer.toString(h_Kivalasztott.getTomeg()));
     		}
     	
+    	tx_Nev.requestFocus();
+    	
     }
     
     public void setGomb_Szoveg(String sz) {
@@ -152,7 +154,7 @@ public class adatController {
     	}
     	
     	try {
-    		int tomeg = Integer.parseInt(tx_Tomeg.getText());
+			int tomeg = Integer.parseInt(tx_Tomeg.getText());
     	} catch (NumberFormatException e) {
     		kiiras += "\nÉrvénytelen tömeg";
     		ervenyes = false;

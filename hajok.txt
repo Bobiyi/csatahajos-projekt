@@ -17,7 +17,7 @@ Bismarck ; Németország ; Bismarck osztályú csatahajó ; 41700 ; 8 × 38 cm (
 
 USS Georgia (BB-15) ; USA ; Virga osztályú csatahajó ; 14948 ; 4 × 12(305 mm)/40 kaliber ágyú,8 × 8(203 mm)/45 kaliber ágyú,12 × 6(152 mm)/50 kaliber ágyú,12 × 3(76 mm)/50 kaliber ágyú,12 × 3-kilós fegyver,4 × 21 ch (533 mm) torpedó cső 
 
-SMS Csepel ; Osztrák-Magyar Monarchia ; Tátra osztályú romboló ; 2 × egyszers 10 cm (3.9 inch) ágyú,6 × egyszeres 66 mm (2.6 inch) ágyú,2 × dupla 45 cm (17.7 inch) torpedó cső
+SMS Csepel ; Osztrák-Magyar Monarchia ; Tátra osztályú romboló ; 870 ; 2 × egyszers 10 cm (3.9 inch) ágyú,6 × egyszeres 66 mm (2.6 inch) ágyú,2 × dupla 45 cm (17.7 inch) torpedó cső
 
 USS Nebraska (BB-14) ; USA ; Virga osztályú csatahajó ; 16094 ; 4 × 12(305 mm)/40 kaliber ágyú,8 × 8(203 mm)/45 kaliber ágyú,12 × 6(152 mm)/50 kaliber ágyú,12 × 3(76 mm)/50 kaliber ágyú,12 × 3-kilós ágyú,4 × 21 ch (533 mm) torpedó cső
 
@@ -57,9 +57,9 @@ USS Atlanta ; USA ; cirkáló ; 3189 ; 2 × 8-inch (203 mm)/30 kaliber Mark 1 á
 
 Göteborg ; Svédország ; Romboló ;  1040 ; 3 × egyszeres 120 mm (4.7 inch) ágyú,3 × dupla Bofors 25 mm (1 inch) légvédelmi ágyú,2 × tripla 533 mm (21 inch) torpedó cső,20 × tengeri akna
 
-SMS Balaton ; Osztrák-Magyar Monarchia ; Tátra osztályú romboló ; 2 × egyszers 10 cm (3.9 inch) ágyú,6 × egyszeres 66 mm (2.6 inch) ágyú,2 × dupla 45 cm (17.7 inch) torpedó cső
+SMS Balaton ; Osztrák-Magyar Monarchia ; Tátra osztályú romboló ; 870 ; 2 × egyszers 10 cm (3.9 inch) ágyú,6 × egyszeres 66 mm (2.6 inch) ágyú,2 × dupla 45 cm (17.7 inch) torpedó cső
 
-Z30 ; Type 1936A osztályú romboló ; 3691 ; 4 × egyszers 12.7 cm (5 inch) ágyú,2 × dupla 3.7 cm (1.5 inch) légvédelmi ágyú,5 × egyszeres 2 cm (0.8 inch) légvédelmi ágyú,2 × négyszeres 53.3 cm (21 inch) torpedó cső,60 akna
+Z30 ; Németország ; Type 1936A osztályú romboló ; 3691 ; 4 × egyszers 12.7 cm (5 inch) ágyú,2 × dupla 3.7 cm (1.5 inch) légvédelmi ágyú,5 × egyszeres 2 cm (0.8 inch) légvédelmi ágyú,2 × négyszeres 53.3 cm (21 inch) torpedó cső,60 akna
 
 USS Paulding ; USA ; Paulding osztályú romboló ; 742 ; 5 × 3 inch (76 mm)/50 kaliberű ágyú,6 × 18 inch (450 mm) torpedó cső (3 × 2)
 
