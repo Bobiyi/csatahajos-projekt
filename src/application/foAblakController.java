@@ -16,6 +16,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
+import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.MenuItem;
@@ -55,6 +56,21 @@ public class foAblakController {
     @FXML
     private Label lb_Darab;
 
+    @FXML
+    private CheckBox chk_Cirkalo;
+
+    @FXML
+    private CheckBox chk_Csatahajo;
+
+    @FXML
+    private CheckBox chk_Rephordozo;
+
+    @FXML
+    private CheckBox chk_Rombolo;
+
+    @FXML
+    private CheckBox chk_TengeralattJ;
+    
     @FXML
     private ListView<Hajo> lv_Lista;
 
@@ -314,9 +330,24 @@ public class foAblakController {
     }
     
     @FXML
+    void chk_Hajo_Fliter() {
+    	filter(chk_Rombolo,chk_Cirkalo,chk_Csatahajo,chk_Rephordozo,chk_TengeralattJ);
+    }
+    	
+	@FXML
     void initialize() {
     	
     	lb_Darab.setText("");
+    	
+    	chk_Cirkalo.setSelected(true);
+    	
+    	chk_Rombolo.setSelected(true);
+    	
+    	chk_Csatahajo.setSelected(true);
+    	
+    	chk_Rephordozo.setSelected(true);
+    	
+    	chk_TengeralattJ.setSelected(true);
     	
     	File f = new File("hajok.txt");
     	
@@ -334,6 +365,7 @@ public class foAblakController {
     	});
 
     }
+    
     public void listaFrissites() {
 		lv_Lista.getItems().clear();
 		
@@ -457,4 +489,48 @@ public class foAblakController {
     	}
     }
     }
+    
+    private void filter(CheckBox chk_Rombolo, CheckBox chk_Cirkalo, CheckBox chk_Csatahajo, CheckBox chk_Rephordozo, CheckBox chk_TengeralattJ) {
+		lv_Lista.getItems().clear();
+		
+		if(chk_Rombolo.isSelected()) {
+			for(Hajo h : hajok) {
+				if(h.getOsztaly().toLowerCase().contains("romboló")) {
+					lv_Lista.getItems().add(h);
+				}
+			}
+		}
+		
+		if(chk_Cirkalo.isSelected()) {
+			for(Hajo h : hajok) {
+				if(h.getOsztaly().toLowerCase().contains("cirkáló")) {
+					lv_Lista.getItems().add(h);
+				}
+			}
+		}
+		
+		if(chk_Csatahajo.isSelected()) {
+			for(Hajo h : hajok) {
+				if(h.getOsztaly().toLowerCase().contains("csatahajó")) {
+					lv_Lista.getItems().add(h);
+				}
+			}
+		}
+		
+		if(chk_Rephordozo.isSelected()) {
+			for(Hajo h : hajok) {
+				if(h.getOsztaly().toLowerCase().contains("repülőgép")) {
+					lv_Lista.getItems().add(h);
+				}
+			}
+		}
+		
+		if(chk_TengeralattJ.isSelected()) {
+			for(Hajo h : hajok) {
+				if(h.getOsztaly().toLowerCase().contains("tengeralattjáró")) {
+					lv_Lista.getItems().add(h);
+				}
+			}
+		}
+	}
 }

@@ -47,13 +47,13 @@ Yamato ; Japán ; Yamato osztályú csatahajó ; 71659 ; 3 × tripla 46 cm (18.1
 
 Leningrad ; Szovjetúnió / Oroszország ; Leningrad osztályú romboló ; 2150 ; 5 × egyszeres 130 mm (5.1 inch) ágyú,2 × egyszeres 76.2 mm (3 inch) légvédelmi ágyú,2 × egyszeres 45 mm (1.8 inch) légvédelmi ágyú,2 × négyszeres 533 mm (21 inch) torpedó cső,68–115 akna,52 mélységi töltet
 
-HMCS Rainbow ; Egyesült Királyság ; Apollo osztályú cirkáló ; 3600 ; 2 × gyorstüzelésű 6 inch (152 mm) ágyú,6 × gyorstüzelésű 4.724 inch (120 mm) ágyú,8 × gyorstüzelésű 6-kilós (57 mm) ágyú,4 × 14 inch (360 mm) torpedó cső
+HMCS Rainbow ; Egyesült Királyság ; Apollo osztályú Cirkáló ; 3600 ; 2 × gyorstüzelésű 6 inch (152 mm) ágyú,6 × gyorstüzelésű 4.724 inch (120 mm) ágyú,8 × gyorstüzelésű 6-kilós (57 mm) ágyú,4 × 14 inch (360 mm) torpedó cső
 
 JDS Takatsuki ; Japán ; Takatsuki osztályú romboló ; 3100 ; 2 × Mk.42 5 inch (127 mm) ágyú,1 × (VIII) ASROC,1 × (IV) Bofors 375 mm (15 inch) ASW rakéta kilövő,2 × (III) Mk.32 ASW torpedó cső,2 × QH-50D DASH tengeralattjáró-ellenes drónhelikopter
 
-HMS Aurora ; Egyesült Királyság ; Arethusa osztályú cirkáló ; 3500 ; 2 × BL 6 inch (152 mm)/45 kaliber Mk XII ágyű,6 × QF 4 inch (102 mm)/45 kaliber Mk IV ágyú,1 × 3-kilós 47 mm (1.9 inch) ágyú,4 × 21 inch (533 mm) torpedó cső
+HMS Aurora ; Egyesült Királyság ; Arethusa osztályú Cirkáló ; 3500 ; 2 × BL 6 inch (152 mm)/45 kaliber Mk XII ágyű,6 × QF 4 inch (102 mm)/45 kaliber Mk IV ágyú,1 × 3-kilós 47 mm (1.9 inch) ágyú,4 × 21 inch (533 mm) torpedó cső
 
-USS Atlanta ; USA ; cirkáló ; 3189 ; 2 × 8-inch (203 mm)/30 kaliber Mark 1 ágyú,6 × 6-inch (152 mm)/30 kaliber Mark 2 ágyú,2 × 6-kilós (57 mm (2.24 inch)) ágyú,2 × 3-kilós (47 mm (1.85 inch)) Hotchkiss forgó ágyú,2 × 1-kilós (37 mm (1.46 inch)) Hotchkiss forgó ágyú,2 × .45 kaliber (11.4 mm) Gatling fegyverek
+USS Atlanta ; USA ; Cirkáló ; 3189 ; 2 × 8-inch (203 mm)/30 kaliber Mark 1 ágyú,6 × 6-inch (152 mm)/30 kaliber Mark 2 ágyú,2 × 6-kilós (57 mm (2.24 inch)) ágyú,2 × 3-kilós (47 mm (1.85 inch)) Hotchkiss forgó ágyú,2 × 1-kilós (37 mm (1.46 inch)) Hotchkiss forgó ágyú,2 × .45 kaliber (11.4 mm) Gatling fegyverek
 
 Göteborg ; Svédország ; Romboló ;  1040 ; 3 × egyszeres 120 mm (4.7 inch) ágyú,3 × dupla Bofors 25 mm (1 inch) légvédelmi ágyú,2 × tripla 533 mm (21 inch) torpedó cső,20 × tengeri akna
 
@@ -65,11 +65,11 @@ USS Paulding ; USA ; Paulding osztályú romboló ; 742 ; 5 × 3 inch (76 mm)/50
 
 HMS Sterling (1918) ; Egyesült Királyság ; S osztályú romboló ; 1075 ; 3 × egyszeres QF 4 inch (102 mm) ágyú,1 × egyszers 2-kilós 40 mm (2 inch) Mk. II légvédelmi ágyú,2 × dupla 21 in (533 mm) torpedó cső,4 × mélységi töltet csatorna
 
-USS Boston ; USA ; cirkáló ; 3189 ; 2 × 8-inch (203 mm)/30 kaliber Mark 1 ágyú,6 × 6-inch (152 mm)/30 kaliber Mark 2 ágyú,2 × 6-kilós (57 mm (2.24 in)) ágyú,2 × 3-kilós (47 mm (1.85 in)) Hotchkiss forgó ágyú,2 × 1-kilós (37 mm (1.46 in)) Hotchkiss forgó ágyú,2 × .45 kaliber (11.4 mm) Gatling ágyú
+USS Boston ; USA ; Cirkáló ; 3189 ; 2 × 8-inch (203 mm)/30 kaliber Mark 1 ágyú,6 × 6-inch (152 mm)/30 kaliber Mark 2 ágyú,2 × 6-kilós (57 mm (2.24 in)) ágyú,2 × 3-kilós (47 mm (1.85 in)) Hotchkiss forgó ágyú,2 × 1-kilós (37 mm (1.46 in)) Hotchkiss forgó ágyú,2 × .45 kaliber (11.4 mm) Gatling ágyú
 
-USS Montana ; USA ; Tennessee osztályú páncélozott cirkáló ; 14500 ; 4 × 10 inch (254 mm)/ 40 kaliber Mark 3 ágyú,16 × 6 inch (152 mm)/50 kaliber Mark 8 ágyú,22 × 3 inch (76 mm)/50 kaliber ágyú,12 × 3-kilós ágyú,4 × 1-kilós ágyú,4 × 21 inch (533 mm) torpedó cső
+USS Montana ; USA ; Tennessee osztályú páncélozott Cirkáló ; 14500 ; 4 × 10 inch (254 mm)/ 40 kaliber Mark 3 ágyú,16 × 6 inch (152 mm)/50 kaliber Mark 8 ágyú,22 × 3 inch (76 mm)/50 kaliber ágyú,12 × 3-kilós ágyú,4 × 1-kilós ágyú,4 × 21 inch (533 mm) torpedó cső
 
-USS San Francisco ; USA ; védett cirkáló ; 4088 ; 12 × 6 inch (152 mm)/30 kaliber Mark 3 farfekvésű puskák,4 × 57 mm (2.2 inch) 6-kilós ágyú,4 × 47 mm (1.9 inch) 3-kilós ágyú,2 × 37 mm (1.5 inch) 1-kilós gyorstüzelő fegyver,4 × Gatling ágyú
+USS San Francisco ; USA ; védett Cirkáló ; 4088 ; 12 × 6 inch (152 mm)/30 kaliber Mark 3 farfekvésű puskák,4 × 57 mm (2.2 inch) 6-kilós ágyú,4 × 47 mm (1.9 inch) 3-kilós ágyú,2 × 37 mm (1.5 inch) 1-kilós gyorstüzelő fegyver,4 × Gatling ágyú
 
 JDS Nagatsuki ; Japán ; Takatsuki osztályú romboló ; 3100 ; 2 × Mk.42 5 inch (127 mm) ágyú,1 × (VIII) ASROC,1 × (IV) Bofors 375 mm (15 inch) ASW rakéta kilövő,2 × (III) Mk.32 ASW torpedó cső,2 × QH-50D DASH tengeralattjáró-ellenes drónhelikopter
 
@@ -81,7 +81,7 @@ HMS Stonehenge (1919) ; Egyesült Királyság ; S osztályú romboló ; 1075 ; 3
 
 Z43 ; Németország ; Type 1936B osztályú romboló ; 3542 ; 5 × egyszeres 12.7 cm (5 inch) ágyú,2 × dupla 3.7 cm (1.5 inch) légvédelmi ágyú,3 × egyszeres 2 cm (0.79 inch) légvédelmi ágyú,2 × négyszeres 53.3 cm (21 inch) torpedó cső,4 × mélységi akna lövő,74–76 × akna
 
-USS Birmingham ; USA ; Chester osztályú cirkáló ; 4687 ; 4 × 5 inch (130 mm)/50 kaliber Mark 6 farfekvésű puskák,6 × 3 inch (76 mm)/50 kaliber gyorstüzelő fegyver (6x1),2 × 3-kilós (47 mm (1.9 in) Driggs-Schroeder tisztelgő fegyver,2 × 21 inch (533 mm) torpedó cső
+USS Birmingham ; USA ; Chester osztályú Cirkáló ; 4687 ; 4 × 5 inch (130 mm)/50 kaliber Mark 6 farfekvésű puskák,6 × 3 inch (76 mm)/50 kaliber gyorstüzelő fegyver (6x1),2 × 3-kilós (47 mm (1.9 in) Driggs-Schroeder tisztelgő fegyver,2 × 21 inch (533 mm) torpedó cső
 
 SMS Tátra ; Osztrák-Magyar Monarchia ; Tátra osztályú romboló ; 1050 ; 	2 × egyszeres 10 cm (3.9 inch) ágyú,6 × egyszeres 66 mm (2.6 inch) ágyú,2 × dupla 45 cm (17.7 inch) torpedó cső
 
@@ -115,7 +115,7 @@ USS Michigan (SSGN-727) ; USA ; Ohio osztályú tengeralattjáró ; 16764 ; 4 ×
 
 USS Ohio (SSGN-726) ; USA ; Ohio osztályú tengeralattjáró ; 16764 ; 4 × 21 inch (533 mm) íjtorpedó cső,24 × Trident II C4 SLBM, egyenként akár 8 MIRVed W76 nukleáris robbanófejjel
 
-USS Los Angeles (SSN-688) ; USA ; Los Angeles osztályú tengeralattjáró ; 5700 ; 4 × 21 inch (533 mm) íjcső,Mark 48 torpedó,Harpoon rakéta,Tomahawk cirkáló rakéta
+USS Los Angeles (SSN-688) ; USA ; Los Angeles osztályú tengeralattjáró ; 5700 ; 4 × 21 inch (533 mm) íjcső,Mark 48 torpedó,Harpoon rakéta,Tomahawk Cirkáló rakéta
 
 USS Philadelphia (SSN-690) ; USA ; Los Angeles osztályú tengeralattjáró ; 6075 ; 4 × 21 inch (533 mm) íjcső,BGM-109 Tomahawk,Mark 48 torpedó
 
