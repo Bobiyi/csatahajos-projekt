@@ -86,7 +86,7 @@ USS Macomb ; USA ; Gleaves osztályú romboló ; 2230 ; 4 × 5 inch (127 mm) ket
 
 HMAS Stalwart (H14) ; Ausztrália ; S osztályú romboló ; 1075 ; 3 × QF 4-inch Mk IV ágyú,1 × 2-kilós pom-pom,5 × .303-inch gépágyú,2 × twin 21-inch torpedó cső készlet,2 mélységi töltet dobó,2 mélységi töltet csatorna
 
-Design A-150 ; Japán ; Csatahajó (Super Yamato osztályú) ; 70000 ; 3 × dupla 51 cm (20.1 inch) ágyú, Sok 10 cm (3.9 inch) kettős célú ágyú
+Design A-150 ; Japán ; (Super Yamato osztályú) csatahajó ; 70000 ; 3 × dupla 51 cm (20.1 inch) ágyú, 'Sok' 10 cm (3.9 inch) kettős célú ágyú
 
 HMS Warrior ; Egyesült Királyság ; Colossus osztályú repülőgép-hordozó ; 18300 ; 4 × dupla 40 mm Bofors ágyú,20 × egyszeres 40 mm Bofors ágyú
 
@@ -98,7 +98,7 @@ HMS Zodiac ; Egyesült Királyság ; Z osztályú romboló ; 1701 ; 	4 х 4.5 in
 
 HMS Warrior (R31) ; Egyesült Királyság ; Colossus osztályú repülőgép-hordozó ; 18300 ; 4 × dupla 40 mm Bofors ágyú,20 × egyszeres 40 mm Bofors ágyú
 
-HMS Trojan ; Egyesült Királyság ; S osztályú romboló ; 1220 ; 3 × QF 4-inch (101.6 mm) Mark IV ágyú,1 × egyszeres 2-kilós (40-mm) ,pom-pom, Mk. II légvédelmi ágyú,4 × 21 inch (533 mm) torpedó cső (2×2),2 × 18 inch (457 mm) torpedó cső (2×1)
+HMS Trojan ; Egyesült Királyság ; S osztályú romboló ; 1220 ; 3 × QF 4-inch (101.6 mm) Mark IV ágyú,1 × egyszeres 2-kilós (40-mm) ,'pom-pom', Mk. II légvédelmi ágyú,4 × 21 inch (533 mm) torpedó cső (2×2),2 × 18 inch (457 mm) torpedó cső (2×1)
 
 JS Izumo ; Japán ; Izumo osztályú repülőgép-hordozó ; 19950 ; 2 × Phalanx CIWS,2 × SeaRAM CIWS,7 ASW helikopter,2 SAR helikopter,28 repülőgép maximum
 

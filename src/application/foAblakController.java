@@ -330,15 +330,8 @@ public class foAblakController {
     }
     
     @FXML
-    void chk_Hajo_Fliter() {
+    void chk_Hajo_Fliter() {	
     	filter(chk_Rombolo,chk_Cirkalo,chk_Csatahajo,chk_Rephordozo,chk_TengeralattJ);
-    	
-    	hajok.sort(new Comparator<Hajo>() {
-
-			@Override
-			public int compare(Hajo o1, Hajo o2) {
-				return o1.getNev().compareTo(o2.getNev());
-			}});
     	
     }
     	
