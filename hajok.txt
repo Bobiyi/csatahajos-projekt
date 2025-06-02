@@ -1,5 +1,7 @@
 #név ; ország ; osztály ; tömeg ; fegyverzet
 
+# 
+
 USS New Mexico (BB-40) ; USS ; New Mexico osztályú csatahajó ; 33530 ; 12 × 14(356 mm)/50 kaliber ágyú,14 × 5(127 mm)/51 kaliber ágyú, 8 × 3(76 mm)/50 kaliber ágyú, 2 × Mark 15 21(533 mm) torpedó cső
 
 Bismarck ; Németország ; Bismarck osztályú csatahajó ; 41700 ; 8 × 38 cm (15 inch) SK C/34 (4 × 2) haditengerészeti ágyú,12 × 15 cm (5.9 inch) SK C/28 (6 × 2) haditengerészeti ágyú, 16 × 10.5 cm (4.1 inch) SK C/33 (8 × 2) haditengerészeti ágyú, 16 × 3.7 cm (1.5 inch) SK C/30 (8 × 2) haditengerészeti ágyú, 12 × 2 cm (0.79 inch) FlaK 30 (12 × 1) haditengerészeti ágyú
@@ -84,7 +86,7 @@ USS Macomb ; USA ; Gleaves osztályú romboló ; 2230 ; 4 × 5 inch (127 mm) ket
 
 HMAS Stalwart (H14) ; Ausztrália ; S osztályú romboló ; 1075 ; 3 × QF 4-inch Mk IV ágyú,1 × 2-kilós pom-pom,5 × .303-inch gépágyú,2 × twin 21-inch torpedó cső készlet,2 mélységi töltet dobó,2 mélységi töltet csatorna
 
-Design A-150 ; Japán ; Csatahajó (Super Yamato osztályú) ; 70000 ; 3 × dupla 51 cm (20.1 inch) ágyú,"Sok" 10 cm (3.9 inch) kettős célú ágyú
+Design A-150 ; Japán ; Csatahajó (Super Yamato osztályú) ; 70000 ; 3 × dupla 51 cm (20.1 inch) ágyú, Sok 10 cm (3.9 inch) kettős célú ágyú
 
 HMS Warrior ; Egyesült Királyság ; Colossus osztályú repülőgép-hordozó ; 18300 ; 4 × dupla 40 mm Bofors ágyú,20 × egyszeres 40 mm Bofors ágyú
 
@@ -96,7 +98,7 @@ HMS Zodiac ; Egyesült Királyság ; Z osztályú romboló ; 1701 ; 	4 х 4.5 in
 
 HMS Warrior (R31) ; Egyesült Királyság ; Colossus osztályú repülőgép-hordozó ; 18300 ; 4 × dupla 40 mm Bofors ágyú,20 × egyszeres 40 mm Bofors ágyú
 
-HMS Trojan ; Egyesült Királyság ; S osztályú romboló ; 1220 ; 3 × QF 4-inch (101.6 mm) Mark IV ágyú,1 × egyszeres 2-kilós (40-mm) "pom-pom" Mk. II légvédelmi ágyú,4 × 21 inch (533 mm) torpedó cső (2×2),2 × 18 inch (457 mm) torpedó cső (2×1)
+HMS Trojan ; Egyesült Királyság ; S osztályú romboló ; 1220 ; 3 × QF 4-inch (101.6 mm) Mark IV ágyú,1 × egyszeres 2-kilós (40-mm) ,pom-pom, Mk. II légvédelmi ágyú,4 × 21 inch (533 mm) torpedó cső (2×2),2 × 18 inch (457 mm) torpedó cső (2×1)
 
 JS Izumo ; Japán ; Izumo osztályú repülőgép-hordozó ; 19950 ; 2 × Phalanx CIWS,2 × SeaRAM CIWS,7 ASW helikopter,2 SAR helikopter,28 repülőgép maximum
 
