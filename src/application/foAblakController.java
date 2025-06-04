@@ -205,6 +205,7 @@ public class foAblakController {
     			Alert hiba = new Alert(AlertType.ERROR);
     			
     			hiba.setTitle("Hiba");
+    			
     			hiba.setHeaderText("Hiba a dialóg megnyitása során.");
     			
     			hiba.showAndWait();
@@ -216,13 +217,12 @@ public class foAblakController {
     @FXML
     void btn_Torles_Click(ActionEvent event) {
     	
-    	Hajo kivalsztott_Hajo = lv_Lista.getSelectionModel().getSelectedItem();
+    	int kivalsztott_Hajo_Id = lv_Lista.getSelectionModel().getSelectedIndex();
     	
-    	lv_Lista.getItems().remove(kivalsztott_Hajo);
+    	lv_Lista.getItems().remove(kivalsztott_Hajo_Id);
     	
     	hajok.remove(lv_Lista.getSelectionModel().getSelectedIndex());
     	
-    	listaFrissites();
     }
     
     @FXML
@@ -271,6 +271,7 @@ public class foAblakController {
     	nevj.setTitle("Névjegy");
     	
     	nevj.setHeaderText("Csatahajó program");
+    	
     	nevj.setContentText("Készítette: Halmai Bence");
     	
     	nevj.showAndWait();
