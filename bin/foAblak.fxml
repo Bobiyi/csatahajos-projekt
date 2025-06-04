@@ -10,6 +10,7 @@
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.SeparatorMenuItem?>
 <?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.FlowPane?>
@@ -105,12 +106,21 @@
       </FlowPane>
       <HBox prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
          <children>
-            <ListView fx:id="lv_Lista" onMouseClicked="#lv_Lista_Click" prefHeight="282.0" prefWidth="190.0" HBox.hgrow="NEVER">
-               <HBox.margin>
-                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-               </HBox.margin>
-            </ListView>
-            <TextArea fx:id="txa_Leiras" prefHeight="315.0" prefWidth="174.0" HBox.hgrow="SOMETIMES">
+            <VBox prefHeight="292.0" prefWidth="214.0">
+               <children>
+                  <TextField fx:id="Tf_Search" onAction="#tf_Search_Action" VBox.vgrow="NEVER">
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <ListView fx:id="lv_Lista" onMouseClicked="#lv_Lista_Click" VBox.vgrow="ALWAYS">
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </VBox.margin>
+                  </ListView>
+               </children>
+            </VBox>
+            <TextArea fx:id="txa_Leiras" prefHeight="282.0" prefWidth="392.0" HBox.hgrow="ALWAYS">
                <HBox.margin>
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </HBox.margin>

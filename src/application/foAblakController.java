@@ -21,6 +21,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.MenuItem;
 import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.Scene;
@@ -37,6 +38,9 @@ public class foAblakController {
 	private static ArrayList<Hajo> hajok = new ArrayList<>();
 	
 	private static AblakMode mode= null;
+	
+	@FXML
+    private TextField Tf_Search;
 	
 	@FXML
     private Button btn_DeleteDeletedatabase;
@@ -335,11 +339,29 @@ public class foAblakController {
     	
     }
     	
+    @FXML
+    void tf_Search_Action(ActionEvent event) {
+    	lv_Lista.getItems().clear();
+    	
+    	if(Tf_Search.getText().equals("")) {
+    		listaFrissites();
+    	} else {
+    		for(Hajo h : hajok) {
+    			if(h.getNev().toLowerCase().contains(Tf_Search.getText().toLowerCase())) {
+    				lv_Lista.getItems().add(h);
+    			}
+    		}
+    	}
+    }
 	
     @FXML
     void initialize() {
     	
     	lb_Darab.setText("");
+    	
+    	Tf_Search.setPromptText("Search");
+    	
+    	txa_Leiras.setEditable(false);
     	
     	chk_Cirkalo.setSelected(true);
     	
