@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="120.0" prefWidth="256.0" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ConfirmationController">
+   <children>
+      <Label alignment="CENTER" prefHeight="50.0" prefWidth="225.0" text="Biztosan ki akarja törölni a listát?" VBox.vgrow="ALWAYS" />
+      <FlowPane alignment="CENTER" hgap="50.0" prefHeight="81.0" prefWidth="256.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button fx:id="btn_Delete_Igen" defaultButton="true" mnemonicParsing="false" onAction="#btn_Delete_Igen_Click" prefHeight="25.0" prefWidth="75.0" text="Igen" />
+            <Button fx:id="btn_Delete_Nem" mnemonicParsing="false" onAction="#btn_Delete_Nem_Click" prefHeight="25.0" prefWidth="75.0" text="Nem" />
+         </children>
+      </FlowPane>
+   </children>
+</VBox>

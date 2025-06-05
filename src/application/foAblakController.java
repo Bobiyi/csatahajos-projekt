@@ -225,11 +225,27 @@ public class foAblakController {
     @FXML
     void btn_Torles_Click(ActionEvent event) {
     	
-    	int kivalsztott_Hajo_Id = lv_Lista.getSelectionModel().getSelectedIndex();
+    	int kivalasztott_Hajo_Id = lv_Lista.getSelectionModel().getSelectedIndex();
     	
-    	lv_Lista.getItems().remove(kivalsztott_Hajo_Id);
+    	if(kivalasztott_Hajo_Id != -1) {
+    		
+    		hajok.remove(getFilteredIndex());
+    		
+    		txa_Leiras.clear();
+    		
+    		lv_Lista.getItems().remove(kivalasztott_Hajo_Id);
+    		
+    		listaFrissites();
+
+    	} else {
+    		Alert hiba = new Alert(AlertType.WARNING);
+    		
+    		hiba.setTitle("Hiba");
+    		hiba.setHeaderText("Válasszon ki egy hajót!");
+    		
+    		hiba.showAndWait();
+    	}
     	
-    	hajok.remove(lv_Lista.getSelectionModel().getSelectedIndex());
     	
     }
     
@@ -302,6 +318,7 @@ public class foAblakController {
     	
     	
     }
+    
     @FXML
     void nav_Nevjegy_Click(ActionEvent event) {
 
@@ -324,13 +341,36 @@ public class foAblakController {
     
     @FXML
     void btn_DeleteDeletedatabase_Click(ActionEvent event) {
-    	lv_Lista.getItems().clear();
+    	try {
+    		
     	
-    	txa_Leiras.clear();
-    	
-    	hajok.clear();
-    	
-    	listaFrissites();
+    	FXMLLoader loader = new FXMLLoader(getClass().getResource("/ConfirmationAblak.fxml"));
+		Pane root = loader.load();
+		Scene scene = new Scene(root,250,120);
+		scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+		
+		Stage confirmationModal = new Stage();
+		
+		confirmationModal.setScene(scene);
+		confirmationModal.setTitle("Megerősítés");
+		confirmationModal.getIcons().add(new Image("del database.png"));
+		confirmationModal.initModality(Modality.APPLICATION_MODAL);
+		confirmationModal.setResizable(false);
+		
+		ConfirmationController ConfirmationController = loader.getController();
+		
+		ConfirmationController.seConfirmationController(this);
+		
+		confirmationModal.show();
+    	} catch(Exception e) {
+    		Alert hiba = new Alert(AlertType.ERROR);
+			
+			hiba.setTitle("Hiba");
+			
+			hiba.setHeaderText("Hiba a megerősítő ablak megnyitása során.");
+			
+			hiba.showAndWait();
+    	}
     }
     
     @FXML
@@ -554,6 +594,15 @@ public class foAblakController {
     }
     }
     
+    public void deleteDatabase() {
+    	lv_Lista.getItems().clear();
+    	
+    	txa_Leiras.clear();
+    	
+    	hajok.clear();
+    	
+    	listaFrissites();
+    }
     
     private void filter(CheckBox chk_Rombolo, CheckBox chk_Cirkalo, CheckBox chk_Csatahajo, CheckBox chk_Rephordozo, CheckBox chk_TengeralattJ) {
 		lv_Lista.getItems().clear();

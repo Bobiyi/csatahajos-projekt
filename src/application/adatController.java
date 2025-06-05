@@ -157,6 +157,7 @@ public class adatController {
     	}
     	
     	try {
+			@SuppressWarnings("unused")
 			int tomeg = Integer.parseInt(tx_Tomeg.getText());
     	} catch (NumberFormatException e) {
     		kiiras += "\nÉrvénytelen tömeg";
