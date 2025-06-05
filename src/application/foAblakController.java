@@ -43,7 +43,7 @@ public class foAblakController {
     private TextField Tf_Search;
 	
 	@FXML
-    private Button btn_DeleteDeletedatabase;
+    private Button btn_DeleteDatabase;
 	
     @FXML
     private Button btn_Felvetel;
@@ -118,6 +118,14 @@ public class foAblakController {
     	return lv_Lista.getSelectionModel().getSelectedItem();
     }
 	
+    public int getFilteredIndex() {
+    	for(Hajo h : hajok) {
+    		if(h.getNev() == lv_Lista.getSelectionModel().getSelectedItem().getNev()) {
+    			return hajok.indexOf(h);
+    		}
+    	}
+		return -1;
+    }
     
     @FXML
     void btn_Felvetel_Click(ActionEvent event) {
@@ -344,18 +352,14 @@ public class foAblakController {
     void tf_Search_Action(ActionEvent event) {
     	lv_Lista.getItems().clear();
     	
-    	if(Tf_Search.getText().equals("")) {
-    		listaFrissites();
-    	} else {
-    		for(Hajo h : hajok) {
-    			if(h.getNev().toLowerCase().contains(Tf_Search.getText().toLowerCase())) {
-    				lv_Lista.getItems().add(h);
-    			}
-    		}
-    	}
+    	search();
+    	
+    	
     }
 	
-    @FXML
+    
+
+	@FXML
     void initialize() {
     	
     	lb_Darab.setText("");
@@ -373,6 +377,7 @@ public class foAblakController {
     	chk_Rephordozo.setSelected(true);
     	
     	chk_TengeralattJ.setSelected(true);
+    	
     	
     	File f = new File("hajok.txt");
     	
@@ -561,5 +566,18 @@ public class foAblakController {
 				}
 			}
 		}
+	}
+    
+    private void search() {
+    	if(Tf_Search.getText().equals("")) {
+    		listaFrissites();
+    	} else {
+    		for(Hajo h : hajok) {
+    			if(h.getNev().toLowerCase().contains(Tf_Search.getText().toLowerCase())) {
+    				lv_Lista.getItems().add(h);
+    			}
+    		}
+    	}
+		
 	}
 }

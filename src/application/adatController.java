@@ -50,6 +50,7 @@ public class adatController {
     	
     	if(foAblakController.getMode()==AblakMode.EDIT) {
     		if(hibaGyujto()) {
+    			
     		int selected_Hajo_Index=foAblakController.getHajok_Lista().getSelectionModel().getSelectedIndex();
     		
     		String[] fegyverzet_Tomb=txa_Fegyverzet.getText().split(",");
@@ -65,7 +66,10 @@ public class adatController {
     				Integer.parseInt(tx_Tomeg.getText()),
     				fegyverzet);
     		
-    		foAblakController.getHajok().set(foAblakController.getHajok_Lista().getSelectionModel().getSelectedIndex(), h_Frissitett);
+    		System.out.println(foAblakController.getHajok().get(selected_Hajo_Index));
+    		
+    		
+    		foAblakController.getHajok().set(foAblakController.getFilteredIndex(), h_Frissitett);
     		
     		foAblakController.listaFrissites();
     		
