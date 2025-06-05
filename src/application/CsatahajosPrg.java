@@ -17,6 +17,7 @@ public class CsatahajosPrg extends Application {
 			Scene scene = new Scene(root,700,500);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.getIcons().add(new Image("/icon.png"));
+			primaryStage.setMinWidth(650);
 			primaryStage.setScene(scene);
 			primaryStage.setTitle("Csatahajók program");
 			primaryStage.show();
