@@ -11,6 +11,7 @@
 <?import javafx.scene.control.SeparatorMenuItem?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.FlowPane?>
@@ -23,7 +24,7 @@
         <menus>
           <Menu mnemonicParsing="false" text="Fájl">
             <items>
-              <MenuItem fx:id="nav_Mentes" mnemonicParsing="false" onAction="#btn_Kiiras_Click" text="Mentés" />
+              <MenuItem fx:id="nav_Mentes" mnemonicParsing="false" onAction="#nav_Mentes_Click" text="Mentés" />
                   <MenuItem fx:id="nav_Megnyitas" mnemonicParsing="false" onAction="#nav_Megnyitas_Click" text="Fájl megnyitás" />
                   <SeparatorMenuItem mnemonicParsing="false" />
                   <MenuItem fx:id="nav_Kilepes" mnemonicParsing="false" onAction="#nav_Kilepes_Click" text="Kilépés" />
@@ -53,6 +54,9 @@
                      </image>
                   </ImageView>
                </graphic>
+               <tooltip>
+                  <Tooltip text="Hajó hozzáadása" />
+               </tooltip>
             </Button>
             <Button fx:id="btn_Torles" mnemonicParsing="false" onAction="#btn_Torles_Click" prefHeight="40.0" prefWidth="70.0">
                <graphic>
@@ -62,6 +66,9 @@
                      </image>
                   </ImageView>
                </graphic>
+               <tooltip>
+                  <Tooltip text="Hajó törlése" />
+               </tooltip>
             </Button>
             <Button fx:id="btn_Szerkeztes" mnemonicParsing="false" onAction="#btn_Szerkeztes_Click" prefHeight="40.0" prefWidth="70.0">
                <graphic>
@@ -71,6 +78,9 @@
                      </image>
                   </ImageView>
                </graphic>
+               <tooltip>
+                  <Tooltip text="Hajó szerkeztése" />
+               </tooltip>
             </Button>
             <Button fx:id="btn_Kiiras" mnemonicParsing="false" onAction="#btn_Kiiras_Click" prefHeight="40.0" prefWidth="70.0">
                <graphic>
@@ -80,6 +90,9 @@
                      </image>
                   </ImageView>
                </graphic>
+               <tooltip>
+                  <Tooltip text="Mentés JSON fájl ként" />
+               </tooltip>
             </Button>
             <Button fx:id="btn_DeleteDeletedatabase" mnemonicParsing="false" onAction="#btn_DeleteDeletedatabase_Click" prefHeight="40.0" prefWidth="70.0">
                <graphic>
@@ -89,6 +102,9 @@
                      </image>
                   </ImageView>
                </graphic>
+               <tooltip>
+                  <Tooltip text="Lista törlése" />
+               </tooltip>
             </Button>
             <FlowPane alignment="CENTER" hgap="10.0" prefHeight="43.0" prefWidth="130.0">
                <children>

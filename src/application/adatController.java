@@ -68,7 +68,6 @@ public class adatController {
     		
     		System.out.println(foAblakController.getHajok().get(selected_Hajo_Index));
     		
-    		
     		foAblakController.getHajok().set(foAblakController.getFilteredIndex(), h_Frissitett);
     		
     		foAblakController.listaFrissites();

@@ -269,8 +269,39 @@ public class foAblakController {
     		hiba.setHeaderText("Hiba a beolvasás során!");
     		hiba.showAndWait();
     	}
+    }
+    
+    @FXML
+    void nav_Mentes_Click(ActionEvent event) {
+    	FileChooser fc = new FileChooser();
+    	
+    	ExtensionFilter ef = new ExtensionFilter("Csak szöveges fájlok",".txt");
+    	
+    	fc.getExtensionFilters().add(ef);
+    	
+    	String felhasznalo = System.getProperty("user.home");
+    	
+    	fc.setInitialDirectory(new File(felhasznalo+"/Desktop"));
+    	
+    	File kivalasztott = fc.showSaveDialog(null);
+    	
+    	if(kivalasztott != null) {
+    		try {
+				FileWriter w = new FileWriter(kivalasztott);
+				
+				for(Hajo h : hajok) {
+					w.write(String.format("%s: %s - %d Tonna ; %s \n", h.getNev(),h.getOrszag(),h.getTomeg(),h.getFegyverzet_Leiras()));
+					
+					w.flush();
+				}
+				w.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
     	}
-
+    	
+    	
+    }
     @FXML
     void nav_Nevjegy_Click(ActionEvent event) {
 
@@ -477,12 +508,12 @@ public class foAblakController {
     	
     	fc.setInitialDirectory(new File(felhasznalo+"/Desktop"));
     	
-    	File kivalsztott = fc.showSaveDialog(null);
+    	File kivalasztott = fc.showSaveDialog(null);
     	
-    	if(kivalsztott!=null) {
+    	if(kivalasztott!=null) {
     	
     	try {
-    		FileWriter fw = new FileWriter(kivalsztott);
+    		FileWriter fw = new FileWriter(kivalasztott);
     		
     		fw.write("[");
     		fw.flush();
