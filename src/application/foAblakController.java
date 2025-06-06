@@ -377,39 +377,41 @@ public class foAblakController {
     void lv_Lista_Click(MouseEvent event) {
     	if(event.getClickCount()==2) {
     		mode=AblakMode.EDIT;
-        	try {
-        		FXMLLoader loader = new FXMLLoader(getClass().getResource("/AdatDialog.fxml"));
-        		Pane root = loader.load();
-        		Scene scene = new Scene(root,500,400);
-        		scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
-        		
-        		Stage hozzadasModal = new Stage();
-        		
-        		hozzadasModal.setScene(scene);
-        		hozzadasModal.setTitle("Csatahajó szerkeztése");
-        		hozzadasModal.getIcons().add(new Image("/edit hajo.png"));
-        		hozzadasModal.initModality(Modality.APPLICATION_MODAL);
-        		hozzadasModal.setResizable(false);
-        		
-        		adatController adatController = loader.getController();
-        		
-        		adatController.setHajoListaController(this);
-        		adatController.setMode(mode);
-        		
-        		adatController.setGomb_Szoveg("Hajó szerkeztése");
-        		
-        		hozzadasModal.show();
-        		
-        		
-        		
-        		} catch (IOException e) {
-        			Alert hiba = new Alert(AlertType.ERROR);
-        			
-        			hiba.setTitle("Hiba");
-        			hiba.setHeaderText("Hiba a dialóg megnyitása során.");
-        			
-        			hiba.showAndWait();
-        		}
+    		if(getKivalsztott_Hajo()!=null) {
+    			try {
+            		FXMLLoader loader = new FXMLLoader(getClass().getResource("/AdatDialog.fxml"));
+            		Pane root = loader.load();
+            		Scene scene = new Scene(root,500,400);
+            		scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+            		
+            		Stage hozzadasModal = new Stage();
+            		
+            		hozzadasModal.setScene(scene);
+            		hozzadasModal.setTitle("Csatahajó szerkeztése");
+            		hozzadasModal.getIcons().add(new Image("/edit hajo.png"));
+            		hozzadasModal.initModality(Modality.APPLICATION_MODAL);
+            		hozzadasModal.setResizable(false);
+            		
+            		adatController adatController = loader.getController();
+            		
+            		adatController.setHajoListaController(this);
+            		adatController.setMode(mode);
+            		
+            		adatController.setGomb_Szoveg("Hajó szerkeztése");
+            		
+            		hozzadasModal.show();
+            		
+            		
+            		
+            		} catch (IOException e) {
+            			Alert hiba = new Alert(AlertType.ERROR);
+            			
+            			hiba.setTitle("Hiba");
+            			hiba.setHeaderText("Hiba a dialóg megnyitása során.");
+            			
+            			hiba.showAndWait();
+            		}
+    		}
     	}
     }
     

@@ -78,7 +78,12 @@ public class Hajo {
 	public String getJSONFegyverzet() {
 		String eredmeny="[";
 		for (String fegyver : fegyverzet) {
+			
+			if(fegyverzet.size()==1) {
+				return fegyver;
+			} else {
 			eredmeny+=fegyver+",";
+			}
 			
 		}
 		return eredmeny+"]";
