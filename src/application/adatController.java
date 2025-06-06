@@ -122,12 +122,22 @@ public class adatController {
     		
     		Hajo h_Kivalasztott=foAblakController.getKivalsztott_Hajo();
     		
+    		if(h_Kivalasztott!=null) {
+    			
     		txa_Fegyverzet.setText(h_Kivalasztott.getFegyverzet_Leiras());
     		tx_Nev.setText(h_Kivalasztott.getNev());
     		tx_Orszag.setText(h_Kivalasztott.getOrszag());
     		tx_Osztaly.setText(h_Kivalasztott.getOsztaly());
     		tx_Tomeg.setText(Integer.toString(h_Kivalasztott.getTomeg()));
+    		} else {
+    			Alert hiba = new Alert(AlertType.WARNING);
+        		
+        		hiba.setTitle("Hiba");
+        		hiba.setHeaderText("Válasszon ki egy hajót!");
+        		
+        		hiba.showAndWait();
     		}
+    	}
     	
     	tx_Nev.requestFocus();
     	
