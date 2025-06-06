@@ -33,7 +33,7 @@
       <TextField fx:id="tx_Orszag" maxWidth="127.0" prefHeight="25.0" prefWidth="127.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
       <TextField fx:id="tx_Osztaly" maxWidth="208.0" prefHeight="25.0" prefWidth="208.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
       <TextField fx:id="tx_Tomeg" maxWidth="119.0" prefHeight="25.0" prefWidth="119.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-      <Button fx:id="btn_Hozz_Szerk" mnemonicParsing="false" onAction="#btn_Hozz_Szerk_Click" prefHeight="25.0" prefWidth="225.0" text="Hozzáadás / Szerkeztés" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+      <Button fx:id="btn_Hozz_Szerk" mnemonicParsing="false" onAction="#btn_Hozz_Szerk_Click" prefHeight="25.0" prefWidth="300.0" text="Hozzáadás / Szerkeztés" GridPane.columnIndex="2" GridPane.rowIndex="6" />
       <Button fx:id="btn_Megsem" mnemonicParsing="false" onAction="#btn_Megsem_Click" prefHeight="25.0" prefWidth="75.0" text="Mégsem" GridPane.columnIndex="1" GridPane.rowIndex="6" />
       <TextField fx:id="txa_Fegyverzet" GridPane.columnIndex="2" GridPane.rowIndex="5">
          <GridPane.margin>
