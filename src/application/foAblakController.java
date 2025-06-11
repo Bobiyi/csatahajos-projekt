@@ -517,8 +517,6 @@ public class foAblakController {
     						Integer.parseInt(elemek[3].strip()),
     						fegyverzet_Array);
     				
-    				System.out.println(hajo.getNev());
-    				
     				hajok.add(hajo);	
     			}
     			}
